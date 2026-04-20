@@ -22,3 +22,22 @@ a {
   color: var(--black);
   text-decoration: none;
 }
+
+img {
+  max-width: 100%;
+display: block;
+}
+
+.component img {
+  max-width: initial;
+}
+
+.component img {
+    border: 1px solid gray;
+    overflow-x: auto;
+}
+
+.component_code {
+    border: 1px solid gray;
+    margin: 1rem;
+}
