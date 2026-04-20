@@ -14,7 +14,7 @@ html {
 }
 
 body {
-  
+  font-family: "PT serif", serif;
   color: var(--black);
   line-height: 1.667;
   
@@ -31,7 +31,15 @@ img {
 display: block;
 }
 
+.button-style {
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid var(--black);
+  border-radius: 2rem;
+  background-color: transparent;
 
+}
 
 
 .component img {
@@ -41,12 +49,14 @@ display: block;
 
 .component_code {
     border: 1px solid gray;
-    margin: 1rem;
     text-align: center;
-    max-width: 500px;
-    background-image: url(img/screenshot.png);
-    background-size: cover;
-   
-    
+    max-width: 700px;
+  
+     
+}
+
+.code_heading {
+    font-family: var(--font-sans-serif);
+    font-size: 5em;
 }
 
