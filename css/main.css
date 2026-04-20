@@ -1,0 +1,24 @@
+:root {
+--font-sans-serif: IBM Plex Sans Condensed, sans-serif;
+--font-serif: PT Serif, serif;
+--black: #000;
+--gray-light: #ebebeb;
+--white: #fff;
+}
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: var(--font-serif);
+  color: var(--black);
+  line-height: 1.667;
+}
+
+a {
+  color: var(--black);
+  text-decoration: none;
+}
