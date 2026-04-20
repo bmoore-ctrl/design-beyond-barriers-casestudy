@@ -27,12 +27,26 @@ a {
 }
 
 img {
-  max-width: 100%;
+  max-width: 700px;
 display: block;
+text-align: center;
+
 }
 
-.button-style {
+.button-style-primary {
   display: inline-block;
+  cursor: pointer;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid var(--black);
+  border-radius: 2rem;
+  background-color: var(--black);
+  color: var(--white);
+}
+
+.button-style-secondary {
+  display: inline-block;
+  cursor: pointer;
   padding-left: 10px;
   padding-right: 10px;
   border: 1px solid var(--black);
@@ -48,9 +62,12 @@ display: block;
 }
 
 .component_code {
-    border: 1px solid gray;
-    text-align: center;
-    max-width: 700px;
+  border: 1px solid gray;
+  text-align: center;
+  max-width: 700px;
+  background-image: url(img/background-screenshot.png);
+  background-size: cover;
+  background-position: center;
   
      
 }
@@ -58,5 +75,6 @@ display: block;
 .code_heading {
     font-family: var(--font-sans-serif);
     font-size: 5em;
+    margin: 0
 }
 
