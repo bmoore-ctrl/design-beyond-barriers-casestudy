@@ -28,9 +28,19 @@ h1,h2,h3 {
 
 h2 {
   color: grey;
+  background-color: pink;
+  text-align: center;
+  max-width: 25%;
+  
 }
+  
 
 
+
+.typography-body {
+  font-family: "PT Serif", serif;
+  color: black
+}
 a {
   color: var(--black);
   
@@ -67,7 +77,9 @@ img {
 
 }
 
-
+.component {
+  margin: 50px;
+}
 .component img {
     max-width: 50%;
     overflow-x: auto;
@@ -107,7 +119,8 @@ img {
 
 .footer-credits-container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat (10, 100px);
   border-top: 1px solid black;
   background-image: url("../components/img/background.png");
  
@@ -117,3 +130,5 @@ img {
 .footer-credit-items {
   gap: 64px;
 }
+
+
