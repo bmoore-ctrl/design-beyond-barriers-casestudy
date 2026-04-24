@@ -14,6 +14,7 @@ html {
 }
 
 body {
+  
   font-family: "PT serif", serif;
   color: var(--black);
   line-height: 1.667;
@@ -25,16 +26,20 @@ h1,h2,h3 {
   margin: 0;
 }
 
+h2 {
+  color: grey;
+}
+
+
 a {
   color: var(--black);
-  text-decoration: none;
   
 }
 
 img {
   max-width: 100%;
-display: block;
-text-align: center;
+  display: block;
+  text-align: center;
 
 }
 
@@ -43,6 +48,7 @@ text-align: center;
   cursor: pointer;
   padding-left: 10px;
   padding-right: 10px;
+  text-decoration: none;
   border: 1px solid var(--black);
   border-radius: 2rem;
   background-color: var(--black);
@@ -56,19 +62,20 @@ text-align: center;
   padding-right: 10px;
   border: 1px solid var(--black);
   border-radius: 2rem;
+  text-decoration: none;
   background-color: transparent;
 
 }
 
 
 .component img {
-    border: 1px solid gray;
+    max-width: 50%;
     overflow-x: auto;
 }
 
 .component_code {
-  border: 1px solid gray;
-  max-width: 100%;
+ 
+  max-width: 50%;
     
 }
 
@@ -86,19 +93,22 @@ text-align: center;
 }
 
 
-
-
-
 .footer-container
 { display: grid;
   grid-template-columns: 1fr 1fr;
   column-gap: 250px;
-  max-width: 100%;
-  border: 1px solid gray;
+ 
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
   padding: 16px;
 }
 
-.two-column-layout {
+.footer-credits-container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  border-top: 1px solid black
+}
+
+.footer-credit-items {
+  gap: 64px;
 }
