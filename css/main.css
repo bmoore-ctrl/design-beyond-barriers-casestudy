@@ -123,22 +123,41 @@ img {
 }
 
 .article-container {
- border:1px solid black;
- padding: 16px;
+  
+  display: grid;
+  justify-items: center;
+  gap: 16px;
+  background-image: url("../components/img/background.png");
+  padding: 16px;
+}
+
+.article-container p {
+  cursor: pointer;
+  font-family: "IBM Plex Sans Condensed", sans-serif;
+  font-weight: bold;
+  border: 2px solid black;
+  border-radius: 8px;
+  text-align: center;
+  padding: 8px;
+  max-width: 25%;
+  background: white;
+  overflow-wrap: break-word;
   
 }
 
-
-
-.article-container p {
-  display: block;
-margin-block-start: 1em;
-margin-block-end: 1em;
-margin-inline-start: 0px;
-margin-inline-end: 0px;
-unicode-bidi: isolate;
+.article-container a {
+  text-decoration: none;
 }
 
+.article-container p:hover {
+  background-color: black;
+  color: white;
+}
+
+.article-container img {
+  cursor: pointer;
+  max-width: 50%;
+}
 
 .footer-container
 { display: grid;
