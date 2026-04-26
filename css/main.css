@@ -171,14 +171,19 @@ img {
 
 .footer-credits-container {
   display: grid;
+  grid-gap: 3rem;
   grid-template-columns: repeat(3,1fr);
-  grid-template-rows: repeat (10, 100px);
+  grid-template-rows: repeat(2, auto);
   border-top: 1px solid black;
   background-image: url("../components/img/background.png");
  
  
 }
 
+
+.typefaces {
+  display: block;
+}
 
 
 
