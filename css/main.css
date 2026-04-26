@@ -104,7 +104,7 @@ img {
 .cover-container {
   display: grid;
   justify-items: center;
- background-image: url("../components/img/background.png");
+  background-image: url("../components/img/background.png");
   max-width: 50%;
     
 }
