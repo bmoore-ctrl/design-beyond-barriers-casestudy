@@ -132,16 +132,22 @@ img {
 }
 
 
-.article-container p {
+.article-title {
   cursor: pointer;
   font-family: "IBM Plex Sans Condensed", sans-serif;
   font-weight: bold;
   border: 2px solid black;
+  background-color: white;
   border-radius: 8px;
   text-align: center;
   padding: 8px;
   max-width: 25%;
   overflow-wrap: break-word;
+}
+
+.article-title:hover {
+  background-color: black;
+  color: white;
 }
 
 
@@ -150,7 +156,7 @@ img {
   text-decoration: none;
 }
 
-.article-container img {
+.article-img {
   cursor: pointer;
   max-width: 50%;
 }
