@@ -122,6 +122,20 @@ img {
     margin: 0
 }
 
+.article-container {
+ border:1px solid black;
+ padding: 16px;
+  
+}
+
+
+
+.article-container p {
+  border: 1px solid black;
+  padding: 16px;
+  text-align: center;
+}
+
 
 .footer-container
 { display: grid;
