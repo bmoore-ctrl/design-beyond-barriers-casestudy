@@ -14,11 +14,9 @@ html {
 }
 
 body {
-  
   font-family: "PT serif", serif;
   color: var(--black);
   line-height: 1.667;
-  
 }
 
 h1,h2,h3 {
@@ -26,6 +24,17 @@ h1,h2,h3 {
   margin: 0;
 }
 
+a {
+  color: var(--black);
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  text-align: center;
+}
+
+/* TYPOGRAPHY */
 
  .typography-container {
   display: block;
@@ -37,21 +46,17 @@ h1,h2,h3 {
   color: black;
   font-weight: bold;
  }
+
 .typography-body {
   font-family: "PT Serif", serif;
   color: black
 }
-a {
-  color: var(--black);
-  
-}
 
-img {
-  max-width: 100%;
+.typefaces {
   display: block;
-  text-align: center;
-
 }
+
+/* BUTTONS */
 
 .button-style-primary {
   display: inline-block;
@@ -69,8 +74,6 @@ img {
   background-color: var(--black);
   color: var(--white);
 }
-
-
 
 
 .button-style-primary:hover {
@@ -95,9 +98,12 @@ img {
   color: var(--white);
 }
 
+/* COVER SECTION */
+
 .component {
   margin: 50px;
 }
+
 .component img {
     max-width: 50%;
     overflow-x: auto;
@@ -107,8 +113,7 @@ img {
   display: grid;
   justify-items: center;
   background-image: url("../components/img/background.png");
-  max-width: 50%;
-    
+  max-width: 50%;  
 }
 
 .component_code--cover {
@@ -124,13 +129,13 @@ img {
     margin: 0
 }
 
+/* ARTICLE SECTION */
+
 .article-container {
   display: grid;
   grid-template-rows: 1fr;
   background-image: url("../components/img/background.png");
-
 }
-
 
 .article-title {
  max-width: 25%;
@@ -142,7 +147,6 @@ img {
   border-radius: 8px;
   text-align: center;
   padding: 8px;
-  
   overflow-wrap: break-word;
 }
 
@@ -159,6 +163,8 @@ img {
   cursor: pointer;
   max-width: 50%;
 }
+
+/* FOOTER SECTION */
 
 .footer-container
 { display: grid;
@@ -177,14 +183,10 @@ img {
   grid-template-rows: repeat(2, auto);
   border-top: 1px solid black;
   background-image: url("../components/img/background.png");
- 
- 
 }
 
 
-.typefaces {
-  display: block;
-}
+
 
 
 
