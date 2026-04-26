@@ -131,6 +131,7 @@ img {
   padding: 16px;
 }
 
+
 .article-container p {
   cursor: pointer;
   font-family: "IBM Plex Sans Condensed", sans-serif;
@@ -140,18 +141,13 @@ img {
   text-align: center;
   padding: 8px;
   max-width: 25%;
-  background: white;
   overflow-wrap: break-word;
-  
 }
+
+
 
 .article-container a {
   text-decoration: none;
-}
-
-.article-container p:hover {
-  background-color: black;
-  color: white;
 }
 
 .article-container img {
