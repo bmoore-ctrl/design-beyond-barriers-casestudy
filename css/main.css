@@ -131,9 +131,12 @@ img {
 
 
 .article-container p {
-  border: 1px solid black;
-  padding: 16px;
-  text-align: center;
+  display: block;
+margin-block-start: 1em;
+margin-block-end: 1em;
+margin-inline-start: 0px;
+margin-inline-end: 0px;
+unicode-bidi: isolate;
 }
 
 
