@@ -123,16 +123,15 @@ img {
 }
 
 .article-container {
-  
   display: grid;
-  justify-items: center;
-  gap: 16px;
+  grid-template-rows: 1fr;
   background-image: url("../components/img/background.png");
-  padding: 16px;
+
 }
 
 
 .article-title {
+ max-width: 25%;
   cursor: pointer;
   font-family: "IBM Plex Sans Condensed", sans-serif;
   font-weight: bold;
@@ -141,7 +140,7 @@ img {
   border-radius: 8px;
   text-align: center;
   padding: 8px;
-  max-width: 25%;
+  
   overflow-wrap: break-word;
 }
 
@@ -149,8 +148,6 @@ img {
   background-color: black;
   color: white;
 }
-
-
 
 .article-container a {
   text-decoration: none;
@@ -182,8 +179,6 @@ img {
  
 }
 
-.footer-credit-items {
-  gap: 64px;
-}
+
 
 
