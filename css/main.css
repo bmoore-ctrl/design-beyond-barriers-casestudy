@@ -110,10 +110,20 @@ img {
 }
 
 .cover-container {
-  display: grid;
-  justify-items: center;
+  display: block;
+ text-align: center;
   background-image: url("../components/img/background.png");
-  max-width: 50%;  
+}
+
+.cover-container h1 {
+  display: block;
+  font-size: 7em;
+  margin: 0
+}
+
+.cover-container p {
+  display: block;
+  font-size: 2rem;
 }
 
 .component_code--cover {
@@ -169,18 +179,28 @@ img {
 .footer-container
 { display: grid;
   grid-template-columns: 1fr 1fr;
-  column-gap: 250px;
+  column-gap: 75px;
   background-image: url("../components/img/background.png");
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
-  padding: 16px;
 }
+
+.footer h2 {
+  font-family: "IBM Plex Sans Condensed", sans-serif;
+  font-size: 3em;
+}
+
+.footer-item {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-top: 2px solid black;
+  padding-top: 10px;
+}
+
 
 .footer-credits-container {
   display: grid;
-  grid-gap: 3rem;
+  
   grid-template-columns: repeat(3,1fr);
-  grid-template-rows: repeat(2, auto);
+ 
   border-top: 1px solid black;
   background-image: url("../components/img/background.png");
 }
