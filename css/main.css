@@ -71,7 +71,7 @@ img {
   color: var(--black);
 }
 
-.button-style-primary:focus:active {
+.button-style-primary:active {
   background-color: var(--black);
   color: var(--white);
 }
@@ -117,15 +117,12 @@ text-align: center;
 }
 
 .cover-container p {
-  font-size: 2em;
+  font-size: 1.9em;
   max-width: 80%;
   margin-left: auto;
   margin-right: auto;
   
 }
-
-
-
 
 .cover-container h1 {
   font-size: 7em;
