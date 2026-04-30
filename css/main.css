@@ -17,6 +17,7 @@ body {
   font-family: "PT serif", serif;
   color: var(--black);
   line-height: 1.667;
+   background-image: url("../components/img/background.png");
 }
 
 h1,h2,h3 {
@@ -112,7 +113,7 @@ img {
 .cover-container {
   display: block;
  text-align: center;
-  background-image: url("../components/img/background.png");
+ 
 }
 
 .cover-container h1 {
@@ -204,6 +205,20 @@ img {
   grid-template-columns: 2fr 1fr 1fr;
   border-top: 2px solid black;
   padding-top: 10px;
+}
+
+.footer-credit-item p {
+  font-size: 1.5em;
+}
+
+.item-4{
+  position: relative;
+  top: 40px;
+}
+
+.item-5 {
+  position: relative;
+  top: 40px;
 }
 
 .footer-credits-container {
