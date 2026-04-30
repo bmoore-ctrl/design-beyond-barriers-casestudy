@@ -129,8 +129,6 @@ text-align: center;
   margin: 0
 }
 
-
-
 .component_code--cover {
   text-align: center;
 }
@@ -227,9 +225,7 @@ text-align: center;
 
 .footer-credits-container {
   display: grid;
-  
   grid-template-columns: repeat(3,1fr);
- 
   border-top: 1px solid black;
   background-image: url("../components/img/background.png");
 }
