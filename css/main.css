@@ -195,6 +195,16 @@ img {
   padding-top: 10px;
 }
 
+.footer-item p {
+  font-size: 1.5em;
+}
+
+.footer-credit-item {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  border-top: 2px solid black;
+  padding-top: 10px;
+}
 
 .footer-credits-container {
   display: grid;
