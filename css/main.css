@@ -111,21 +111,28 @@ img {
 }
 
 .cover-container {
-  display: block;
- text-align: center;
- 
+ display: grid;
+grid-template-columns: 1fr;
+text-align: center;
 }
 
+.cover-container p {
+  font-size: 2em;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+
+
+
 .cover-container h1 {
-  display: block;
   font-size: 7em;
   margin: 0
 }
 
-.cover-container p {
-  display: block;
-  font-size: 2rem;
-}
+
 
 .component_code--cover {
   text-align: center;
