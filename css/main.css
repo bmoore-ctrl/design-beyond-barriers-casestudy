@@ -17,7 +17,7 @@ body {
   font-family: "PT serif", serif;
   color: var(--black);
   line-height: 1.667;
-   background-image: url("../components/img/background.png");
+  
 }
 
 h1,h2,h3 {
