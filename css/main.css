@@ -149,8 +149,19 @@ text-align: center;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(6, 1fr);
   gap: 75px;
+  padding-top: 4rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
+.article-contents p {
+  font-family: "IBM Plex Sans Condensed", sans-serif;
+  font-weight: bold;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 1rem;
+  text-align: center;
+}
 
 .article-container {
   display: grid;
@@ -187,6 +198,9 @@ text-align: center;
 
 /* FOOTER SECTION */
 
+.footer {
+  padding-top: 16rem;
+}
 .footer-container
 { display: grid;
   grid-template-columns: 1fr 1fr;
