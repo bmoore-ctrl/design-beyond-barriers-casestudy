@@ -167,13 +167,36 @@ text-align: center;
 
 }
 
-.article-1:hover p,
-.article-1:hover img {
+.article:hover p,
+.article:hover img,
+.article:hover .circle-1,
+.article:hover .circle-2
+ {
   background-color: black;
   color: white;
 }
 
-.article-1:hover img {
+.circle-1 {
+  position: relative;
+  left: 15px;
+  bottom: 15px;
+  width: 18px;
+  height: 18px;
+  border: 2px solid black;
+  border-radius: 50px;
+}
+
+.circle-2 {
+  position: relative;
+  left: 35px;
+  bottom: 15px;
+  width: 10px;
+  height: 10px;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+
+.article:hover img {
   background-color: transparent !important;
 }
 
