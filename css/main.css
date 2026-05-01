@@ -170,7 +170,8 @@ text-align: center;
 .article:hover p,
 .article:hover img,
 .article:hover .circle-1,
-.article:hover .circle-2
+.article:hover .circle-2,
+.article:hover .diamond
  {
   background-color: black;
   color: white;
@@ -194,6 +195,14 @@ text-align: center;
   height: 10px;
   border: 2px solid black;
   border-radius: 50%;
+}
+
+.diamond {
+  position: relative;
+  border: 1px dashed black;
+  width: 100px;
+  height: 100px;
+  transform: rotate(45deg);
 }
 
 .article:hover img {
