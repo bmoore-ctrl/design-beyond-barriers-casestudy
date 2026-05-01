@@ -154,14 +154,33 @@ text-align: center;
   padding-right: 2rem;
 }
 
+
+
 .article-contents p {
+  
   font-family: "IBM Plex Sans Condensed", sans-serif;
   font-weight: bold;
   border: 2px solid black;
   border-radius: 10px;
   padding: 1rem;
   text-align: center;
+
 }
+
+.article-1:hover p,
+.article-1:hover img {
+  background-color: black;
+  color: white;
+}
+
+.article-1:hover img {
+  background-color: transparent !important;
+}
+
+.article-contents a {
+  text-decoration: none;
+}
+
 
 .article-container {
   display: grid;
