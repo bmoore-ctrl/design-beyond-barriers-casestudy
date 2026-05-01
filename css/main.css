@@ -138,7 +138,7 @@ text-align: center;
 }
 
 .code_heading--cover {
-    font-size: 5em;
+    font-size: 5.5em;
     margin: 0
 }
 
@@ -186,9 +186,9 @@ text-align: center;
   background-image: url("../components/img/background.png");
 }
 
-.footer h2 {
+.footer-item h2 {
   font-family: "IBM Plex Sans Condensed", sans-serif;
-  font-size: 3em;
+  font-size: 3.5em;
 }
 
 .footer-item {
@@ -209,6 +209,9 @@ text-align: center;
   padding-top: 10px;
 }
 
+.footer-credit-item h2 {
+  font-size: 3.5em;
+}
 .footer-credit-item p {
   font-size: 1.5em;
 }
