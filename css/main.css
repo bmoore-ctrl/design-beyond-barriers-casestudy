@@ -330,6 +330,74 @@ text-align: center;
   left: 100px;
 }
 
+.position-16 {
+  position: relative;
+  bottom: 400px;
+  left: 100px;
+}
+
+.position-17 {
+  position: relative;
+  bottom: 350px;
+  left: 100px;
+}
+
+
+.position-18 {
+  position:relative;
+  bottom: 295px;
+  left: 90px;
+}
+
+.position-19 {
+  position:relative;
+  bottom: 450px;
+}
+
+.position-20 {
+  position: relative;
+  bottom: 415px;
+}
+.position-21 {
+  position: relative;
+  bottom: 525px;
+}
+.position-22 {
+  position: relative;
+  bottom: 485px;
+}
+.position-23 {
+  position: relative;
+  bottom: 465px;
+}
+.position-24 {
+  position: relative;
+  left: 100px;
+  bottom: 600px;
+}
+.position-25 {
+  position:relative;
+  left: 100px;
+  bottom: 565px;
+
+}
+.position-26 {
+  position: relative;
+  left: 100px;
+  bottom: 685px;
+}
+.position-27 {
+  position: relative;
+  left: 100px;
+  bottom: 600px;
+}
+.position-28 {
+  position: relative;
+  left: 100px;
+  bottom: 565px;
+}
+
+
 
 /* FOOTER SECTION */
 
