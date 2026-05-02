@@ -36,20 +36,6 @@ img {
 }
 
 
-.dashed-checkered {
-  --grid-size: 150px;
-  --dash-length: 2px;
-  --dash-color: #ccc;
-  --bg-color: #fff;
-
-  background-color: var(--bg-color);
-  background-image: 
-    linear-gradient(90deg, var(--dash-color) var(--dash-length), transparent var(--dash-length)),
-    linear-gradient(0deg, var(--dash-color) var(--dash-length), transparent var(--dash-length));
-  background-size: var(--grid-size) var(--grid-size);
-  background-position: 0 0, 0 0;
-}
-
 /* TYPOGRAPHY */
 
  .typography-container {
@@ -163,7 +149,7 @@ text-align: center;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(6, 1fr);
-  gap: 75px;
+  gap: 100px;
   padding-top: 4rem;
   padding-left: 2rem;
   padding-right: 2rem;
@@ -176,8 +162,9 @@ text-align: center;
   font-family: "IBM Plex Sans Condensed", sans-serif;
   font-weight: bold;
   border: 2px solid black;
+  max-width: auto;
   border-radius: 10px;
-  padding: 1rem;
+  padding: 10px;;
   text-align: center;
 
 }
@@ -212,8 +199,16 @@ text-align: center;
   border-radius: 50%;
 }
 
+.article img {
+  max-width: 100%;
+}
 
+.article img {
+  position: relative;
+  bottom: 45px;
+  right: 25px;
 
+}
 .article:hover img {
   background-color: transparent !important;
 }
@@ -254,6 +249,49 @@ text-align: center;
 .article-img {
   cursor: pointer;
   max-width: 50%;
+}
+
+.position {
+  position: relative;
+  top: 100px;
+}
+
+.position-2 {
+  position: relative;
+  top: 150px;
+}
+
+.position-3 {
+  position: relative;
+  top: 50px;
+}
+
+.position-4 {
+  position: relative;
+  left: 100px;
+  bottom: 50px;
+}
+
+.position-5 {
+  position: relative;
+  left: 100px;
+}
+
+.position-6 {
+  position: relative;
+  left: 100px;
+  bottom: 125px;
+}
+
+.position-7 {
+  position: relative;
+  left: 100px;
+  bottom: 45px;
+}
+.position-8 {
+  position: relative;
+  left: 50px;
+
 }
 
 /* FOOTER SECTION */
