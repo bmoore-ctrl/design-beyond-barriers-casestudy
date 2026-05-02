@@ -424,6 +424,11 @@ text-align: center;
 
 /* FOOTER */
 
+.footer {
+  position: relative;
+  top:-300px;
+  bottom: -300px;
+}
 .footer-item h2 {
   font-family: "IBM Plex Sans Condensed", sans-serif;
   font-size: 3.5em;
@@ -433,6 +438,8 @@ text-align: center;
   display: grid;
   grid-template-columns: 1fr 1fr;
  border-top: 2px solid black;
+ position: relative;
+ 
 }
 
 .footer-item p {
@@ -443,7 +450,9 @@ text-align: center;
   display: grid;
   grid-template-columns: 2fr 1fr 1fr;
   border-top: 2px solid black;
-  padding-top: 10px;
+  position: relative;
+  top: -200px;
+  padding-bottom: -200px;
 }
 
 .footer-credit-item h2 {
