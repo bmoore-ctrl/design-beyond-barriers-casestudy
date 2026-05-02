@@ -150,9 +150,8 @@ text-align: center;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(6, 1fr);
   gap: 100px;
-  padding-top: 4rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
+ padding: 50px;
+  
 }
 
 
@@ -200,7 +199,7 @@ text-align: center;
 }
 
 .article img {
-  max-width: 100%;
+ max-width: 100%;
 }
 
 .article img {
@@ -401,9 +400,7 @@ text-align: center;
 
 /* FOOTER SECTION */
 
-.footer {
-  padding-top: 16rem;
-}
+
 .footer-container
 { display: grid;
   grid-template-columns: 1fr 1fr;
